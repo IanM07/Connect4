@@ -5,7 +5,7 @@ import java.awt.Color;
  * @author Ian McMullen
  */
 
-public class PlayerPiece extends Spaces {
+public class PlayerPiece extends Spaces{
 
     //playerNum = 1 refers to player 1, playerNum = 2 refers to player 2
     int playerNum;
@@ -21,6 +21,14 @@ public class PlayerPiece extends Spaces {
     
     public int getYCoord(){
         return yCoord;
+    }
+    
+    public void setXCoord(int newCoord){
+        this.xCoord = newCoord;
+    }
+    
+    public void setYCoord(int newCoord){
+        this.yCoord = newCoord;
     }
     
     public int getPlayerNum(){

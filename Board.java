@@ -1,3 +1,7 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
 package connect4;
 
 import java.awt.Color;
@@ -25,10 +29,7 @@ public class Board {
             }
         }
         
-        //verifying x and y coordinates
-        System.out.println(emptyBoard);
-        
-        Controller controller = new Controller();
-        controller.Controller();
+        Controller gameController = new Controller();
+        gameController.Controller();
     }
 }
