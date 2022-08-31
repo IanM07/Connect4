@@ -32,7 +32,7 @@ public class Controller extends JFrame implements PlayingTheGame{
     ArrayList<JButton> buttons = new ArrayList<>();
     
     // <editor-fold>
-    //Keeps track of piece placement for GUI
+    //Keeps track of piece placement for GUI where 'c' means column, and 'A#' indicates which column it is from left to right. Ex) cA1 is the first column on the left
     int cA1 = 35;
     int cA2 = 36;
     int cA3 = 37;
@@ -41,7 +41,7 @@ public class Controller extends JFrame implements PlayingTheGame{
     int cA6 = 40;
     int cA7 = 41;
     
-    //Keeps track of the X and Y coordinates where pieces are placed
+    //Keeps track of the X and Y coordinates where pieces are placed where 'c' means column, '#' is the cooridnate, and 'X' or 'Y' indicates if it is the x or y coord
     int c1X = 1;
     int c1Y = 1;
     int c2X = 2;
